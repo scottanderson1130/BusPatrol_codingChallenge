@@ -9,10 +9,16 @@ The database was provided.
 - Clone repository
 - Install dependancies
   - npm install
+- Import the buspatrol DB
+  - In the terminal type 'sqlite3'
+  - A prompt will appear sqlite>
+  - type '.open buspatrol.db'
+  - if an error occurs, it will be displayed. Else, nothing will appear except a new prompt
+  - exit out of sqlite
 - Start app
   - npm start
 - Go to route /user
-  - In browser, open http://localhost:8000/user/:name
+  - In browser, open http://localhost:8080/user/:name
 
 ## Overall
 
